@@ -1,0 +1,38 @@
+:root {
+    --pink: #FB88CF;
+    --purple: #A579FB;
+    --black: #434343;
+    --red: #FB4C4C;
+    --brown: #BE9780;
+    --orange: #FBAF3C;
+    --blue: #66C4FB;
+    --green: #9ADF7D;
+    --yellow: #FBE27F;
+
+    // standaard kleuren
+    --white: #fff;
+    --grey: #AAAAAA;
+    --dark-grey: #515050;
+    --font-zwart: #000;
+  }
+
+// Fallback for browsers that do not support CSS variables
+$pink: var(--pink, #FB88CF);
+$purple: var(--purple, #A579FB);
+$black: var(--black, #434343);
+$red: var(--red, #FB4C4C);
+$brown: var(--brown, #BE9780);
+$orange: var(--orange, #FBAF3C);
+$blue: var(--blue, #66C4FB);
+$green: var(--green, #9ADF7D);
+$yellow: var(--yellow, #FBE27F);
+
+// standaard kleuren
+$white: var(--white, #fff);
+$grey: var(--grey, #AAAAAA);
+$dark-grey: var(--dark-grey, #515050);
+$text-color: var(--font-zwart, #000);
+
+
+// Fonts
+$font-stack: 'ITC Avant Garde Gothic Bold', sans-serif;

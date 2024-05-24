@@ -1,0 +1,12 @@
+@import 'fonts';
+
+body {
+  font-family: $font-stack;
+  color: $text-color;
+}
+
+// Gebruik het nieuwe lettertype
+h1, h2, h3, h4, h5, h6, button{
+  font-family: 'ITC Avant Garde Gothic Bold', sans-serif;
+  font-weight: bold;
+}

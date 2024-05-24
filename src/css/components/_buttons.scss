@@ -1,0 +1,62 @@
+button {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.verb{
+  border: 10px solid $green;
+}
+.personal{
+  border: 10px solid $orange;
+}
+.question{
+  border: 10px solid $blue;
+}
+.navigation{
+  border: unset;
+  background-color: $dark-grey;
+  color: white;
+}
+.yes{
+  background-color: $green;
+  border: unset;
+  font-size: 32px;
+}
+.no{
+  background-color: $red;
+  border: unset;
+  font-size: 32px;
+}
+.action{
+  background-color: $grey;
+  border: unset;
+}
+.negation{
+  border: 10px solid $red;
+}
+.article{
+  border: 10px solid $black;
+}
+// Filled buttons
+.personal-filled{
+  border: 10px solid $orange;
+  background-color: $orange;
+}
+.verb-filled{
+  border: 10px solid $green;
+  background-color: $green;
+}
+.question-filled{
+  border: 10px solid $blue;
+  background-color: $blue;
+}
+img{
+  width: 4em;
+  height: auto;
+}

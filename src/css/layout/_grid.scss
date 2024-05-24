@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    .output {
+      grid-column: span 4;
+      background-color: #fff;
+      border: 2px solid #000;
+      font-size: 24px;
+      text-align: left;
+    }
+  }
