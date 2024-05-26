@@ -1,3 +1,397 @@
 {
-  "key": "value"
+  "woorden": [
+    {
+      "woord": "Wat",
+      "type": "question",
+      "image_url": "./images/wat.png",
+      "meest_gebruikte_woorden_erna": [
+        {
+          "woord": "is",
+          "type": "verb",
+          "image_url": "./images/ben.png",
+          "meest_gebruikte_woorden_erna": [
+            {
+              "woord": "dat",
+              "type": "article",
+              "image_url": "./images/dat.png",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "je", "type": "personal", "image_url": "./images/jij.png"},
+                {"woord": "het", "type": "article", "image_url": "./images/het.png"},
+                {"woord": "een", "type": "article", "image_url": "./images/een.png"},
+                {"woord": "de", "type": "article", "image_url": "./images/de.png"}
+              ]
+            },
+            {
+              "woord": "het",
+              "type": "article",
+              "image_url": "./images/het.png",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "probleem", "type": "noun", "image_url": "./images/probleem.png"},
+                {"woord": "doel", "type": "noun", "image_url": "./images/doel.png"},
+                {"woord": "plan", "type": "noun", "image_url": "./images/plan.png"},
+                {"woord": "idee", "type": "noun", "image_url": "./images/idee.png"}
+              ]
+            },
+            {
+              "woord": "de",
+              "type": "article",
+              "image_url": "./images/de.png",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "tijd", "type": "noun", "image_url": "./images/tijd.png"},
+                {"woord": "datum", "type": "noun", "image_url": "./images/datum.png"},
+                {"woord": "vraag", "type": "noun", "image_url": "./images/vraag.png"},
+                {"woord": "reden", "type": "noun", "image_url": "./images/reden.png"}
+              ]
+            },
+            {
+              "woord": "er",
+              "type": "adverb",
+              "image_url": "https://example.com/images/er.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "gebeurt", "type": "verb", "image_url": "https://example.com/images/gebeurt.jpg"},
+                {"woord": "is", "type": "verb", "image_url": "https://example.com/images/is.jpg"},
+                {"woord": "aan", "type": "preposition", "image_url": "https://example.com/images/aan.jpg"},
+                {"woord": "op", "type": "preposition", "image_url": "https://example.com/images/op.jpg"}
+              ]
+            }
+          ]
+        },
+        {
+          "woord": "zijn",
+          "type": "verb",
+          "image_url": "https://example.com/images/zijn.jpg",
+          "meest_gebruikte_woorden_erna": [
+            {
+              "woord": "we",
+              "type": "personal",
+              "image_url": "https://example.com/images/we.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "aan", "type": "preposition", "image_url": "https://example.com/images/aan.jpg"},
+                {"woord": "niet", "type": "negation", "image_url": "https://example.com/images/niet.jpg"},
+                {"woord": "hier", "type": "adverb", "image_url": "https://example.com/images/hier.jpg"},
+                {"woord": "nu", "type": "adverb", "image_url": "https://example.com/images/nu.jpg"}
+              ]
+            },
+            {
+              "woord": "ze",
+              "type": "personal",
+              "image_url": "https://example.com/images/ze.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "niet", "type": "negation", "image_url": "https://example.com/images/niet.jpg"},
+                {"woord": "aan", "type": "preposition", "image_url": "https://example.com/images/aan.jpg"},
+                {"woord": "hier", "type": "adverb", "image_url": "https://example.com/images/hier.jpg"},
+                {"woord": "daar", "type": "adverb", "image_url": "https://example.com/images/daar.jpg"}
+              ]
+            },
+            {
+              "woord": "er",
+              "type": "adverb",
+              "image_url": "https://example.com/images/er.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "niet", "type": "negation", "image_url": "https://example.com/images/niet.jpg"},
+                {"woord": "veel", "type": "adjective", "image_url": "https://example.com/images/veel.jpg"},
+                {"woord": "weinig", "type": "adjective", "image_url": "https://example.com/images/weinig.jpg"},
+                {"woord": "meer", "type": "adjective", "image_url": "https://example.com/images/meer.jpg"}
+              ]
+            },
+            {
+              "woord": "in",
+              "type": "preposition",
+              "image_url": "https://example.com/images/in.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "het", "type": "article", "image_url": "https://example.com/images/het.jpg"},
+                {"woord": "de", "type": "article", "image_url": "https://example.com/images/de.jpg"},
+                {"woord": "een", "type": "article", "image_url": "https://example.com/images/een.jpg"},
+                {"woord": "dit", "type": "article", "image_url": "https://example.com/images/dit.jpg"}
+              ]
+            }
+          ]
+        },
+        {
+          "woord": "kunnen",
+          "type": "verb",
+          "image_url": "https://example.com/images/kunnen.jpg",
+          "meest_gebruikte_woorden_erna": [
+            {"woord": "we", "type": "personal", "image_url": "https://example.com/images/we.jpg"},
+            {"woord": "ze", "type": "personal", "image_url": "https://example.com/images/ze.jpg"},
+            {"woord": "het", "type": "article", "image_url": "https://example.com/images/het.jpg"},
+            {"woord": "doen", "type": "verb", "image_url": "https://example.com/images/doen.jpg"}
+          ]
+        },
+        {
+          "woord": "maken",
+          "type": "verb",
+          "image_url": "https://example.com/images/maken.jpg",
+          "meest_gebruikte_woorden_erna": [
+            {"woord": "we", "type": "personal", "image_url": "https://example.com/images/we.jpg"},
+            {"woord": "het", "type": "article", "image_url": "https://example.com/images/het.jpg"},
+            {"woord": "af", "type": "adverb", "image_url": "https://example.com/images/af.jpg"},
+            {"woord": "klaar", "type": "adjective", "image_url": "https://example.com/images/klaar.jpg"}
+          ]
+        }
+      ]
+    },
+    {
+      "woord": "Ik",
+      "type": "personal",
+      "image_url": "./images/ik.png",
+      "meest_gebruikte_woorden_erna": [
+        {
+          "woord": "ben",
+          "type": "verb",
+          "image_url": "./images/ben.png",
+          "meest_gebruikte_woorden_erna": [
+            {
+              "woord": "hier",
+              "type": "adverb",
+              "image_url": "https://example.com/images/hier.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "om", "type": "preposition", "image_url": "https://example.com/images/om.jpg"},
+                {"woord": "te", "type": "preposition", "image_url": "https://example.com/images/te.jpg"},
+                {"woord": "helpen", "type": "verb", "image_url": "https://example.com/images/helpen.jpg"},
+                {"woord": "werken", "type": "verb", "image_url": "https://example.com/images/werken.jpg"}
+              ]
+            },
+            {
+              "woord": "niet",
+              "type": "negation",
+              "image_url": "https://example.com/images/niet.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "zeker", "type": "adjective", "image_url": "https://example.com/images/zeker.jpg"},
+                {"woord": "over", "type": "preposition", "image_url": "https://example.com/images/over.jpg"},
+                {"woord": "wat", "type": "question", "image_url": "https://example.com/images/wat.jpg"},
+                {"woord": "je", "type": "personal", "image_url": "https://example.com/images/je.jpg"}
+              ]
+            },
+            {
+              "woord": "blij",
+              "type": "adjective",
+              "image_url": "https://example.com/images/blij.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "dat", "type": "article", "image_url": "https://example.com/images/dat.jpg"},
+                {"woord": "je", "type": "personal", "image_url": "https://example.com/images/je.jpg"},
+                {"woord": "er", "type": "adverb", "image_url": "https://example.com/images/er.jpg"},
+                {"woord": "bent", "type": "verb", "image_url": "https://example.com/images/bent.jpg"}
+              ]
+            },
+            {
+              "woord": "vermoeid",
+              "type": "adjective",
+              "image_url": "https://example.com/images/vermoeid.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "van", "type": "preposition", "image_url": "https://example.com/images/van.jpg"},
+                {"woord": "het", "type": "article", "image_url": "https://example.com/images/het.jpg"},
+                {"woord": "werken", "type": "verb", "image_url": "https://example.com/images/werken.jpg"},
+                {"woord": "vandaag", "type": "adverb", "image_url": "https://example.com/images/vandaag.jpg"}
+              ]
+            }
+          ]
+        },
+        {
+          "woord": "heb",
+          "type": "verb",
+          "image_url": "./images/heb.png",
+          "meest_gebruikte_woorden_erna": [
+            {
+              "woord": "een",
+              "type": "article",
+              "image_url": "https://example.com/images/een.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "boek", "type": "noun", "image_url": "https://example.com/images/boek.jpg"},
+                {"woord": "pen", "type": "noun", "image_url": "https://example.com/images/pen.jpg"},
+                {"woord": "idee", "type": "noun", "image_url": "https://example.com/images/idee.jpg"},
+                {"woord": "vraag", "type": "noun", "image_url": "https://example.com/images/vraag.jpg"}
+              ]
+            },
+            {
+              "woord": "geen",
+              "type": "negation",
+              "image_url": "https://example.com/images/geen.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "idee", "type": "noun", "image_url": "https://example.com/images/idee.jpg"},
+                {"woord": "tijd", "type": "noun", "image_url": "https://example.com/images/tijd.jpg"},
+                {"woord": "zin", "type": "noun", "image_url": "https://example.com/images/zin.jpg"},
+                {"woord": "energie", "type": "noun", "image_url": "https://example.com/images/energie.jpg"}
+              ]
+            },
+            {
+              "woord": "veel",
+              "type": "adjective",
+              "image_url": "https://example.com/images/veel.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "werk", "type": "noun", "image_url": "https://example.com/images/werk.jpg"},
+                {"woord": "geld", "type": "noun", "image_url": "https://example.com/images/geld.jpg"},
+                {"woord": "plezier", "type": "noun", "image_url": "https://example.com/images/plezier.jpg"},
+                {"woord": "liefde", "type": "noun", "image_url": "https://example.com/images/liefde.jpg"}
+              ]
+            },
+            {
+              "woord": "weinig",
+              "type": "adjective",
+              "image_url": "https://example.com/images/weinig.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "tijd", "type": "noun", "image_url": "https://example.com/images/tijd.jpg"},
+                {"woord": "geld", "type": "noun", "image_url": "https://example.com/images/geld.jpg"},
+                {"woord": "energie", "type": "noun", "image_url": "https://example.com/images/energie.jpg"},
+                {"woord": "zin", "type": "noun", "image_url": "https://example.com/images/zin.jpg"}
+              ]
+            }
+          ]
+        },
+        {
+          "woord": "wil",
+          "type": "verb",
+          "image_url": "https://example.com/images/wil.jpg",
+          "meest_gebruikte_woorden_erna": [
+            {"woord": "je", "type": "personal", "image_url": "https://example.com/images/je.jpg"},
+            {"woord": "het", "type": "article", "image_url": "https://example.com/images/het.jpg"},
+            {"woord": "nu", "type": "adverb", "image_url": "https://example.com/images/nu.jpg"},
+            {"woord": "doen", "type": "verb", "image_url": "https://example.com/images/doen.jpg"}
+          ]
+        },
+        {
+          "woord": "kan",
+          "type": "verb",
+          "image_url": "https://example.com/images/kan.jpg",
+          "meest_gebruikte_woorden_erna": [
+            {"woord": "je", "type": "personal", "image_url": "https://example.com/images/je.jpg"},
+            {"woord": "het", "type": "article", "image_url": "https://example.com/images/het.jpg"},
+            {"woord": "nu", "type": "adverb", "image_url": "https://example.com/images/nu.jpg"},
+            {"woord": "doen", "type": "verb", "image_url": "https://example.com/images/doen.jpg"}
+          ]
+        }
+      ]
+    },
+    {
+      "woord": "De",
+      "type": "article",
+      "image_url": "https://example.com/images/de.jpg",
+      "meest_gebruikte_woorden_erna": [
+        {
+          "woord": "man",
+          "type": "noun",
+          "image_url": "https://example.com/images/man.jpg",
+          "meest_gebruikte_woorden_erna": [
+            {
+              "woord": "loopt",
+              "type": "verb",
+              "image_url": "https://example.com/images/loopt.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "door", "type": "preposition", "image_url": "https://example.com/images/door.jpg"},
+                {"woord": "het", "type": "article", "image_url": "https://example.com/images/het.jpg"},
+                {"woord": "park", "type": "noun", "image_url": "https://example.com/images/park.jpg"},
+                {"woord": "dagelijks", "type": "adverb", "image_url": "https://example.com/images/dagelijks.jpg"}
+              ]
+            },
+            {
+              "woord": "werkt",
+              "type": "verb",
+              "image_url": "https://example.com/images/werkt.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "hard", "type": "adjective", "image_url": "https://example.com/images/hard.jpg"},
+                {"woord": "elke", "type": "adjective", "image_url": "https://example.com/images/elke.jpg"},
+                {"woord": "dag", "type": "noun", "image_url": "https://example.com/images/dag.jpg"},
+                {"woord": "uurtje", "type": "noun", "image_url": "https://example.com/images/uurtje.jpg"}
+              ]
+            },
+            {
+              "woord": "slaapt",
+              "type": "verb",
+              "image_url": "https://example.com/images/slaapt.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "vroeg", "type": "adverb", "image_url": "https://example.com/images/vroeg.jpg"},
+                {"woord": "in", "type": "preposition", "image_url": "https://example.com/images/in.jpg"},
+                {"woord": "de", "type": "article", "image_url": "https://example.com/images/de.jpg"},
+                {"woord": "avond", "type": "noun", "image_url": "https://example.com/images/avond.jpg"}
+              ]
+            },
+            {
+              "woord": "leest",
+              "type": "verb",
+              "image_url": "https://example.com/images/leest.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "graag", "type": "adverb", "image_url": "https://example.com/images/graag.jpg"},
+                {"woord": "boeken", "type": "noun", "image_url": "https://example.com/images/boeken.jpg"},
+                {"woord": "over", "type": "preposition", "image_url": "https://example.com/images/over.jpg"},
+                {"woord": "geschiedenis", "type": "noun", "image_url": "https://example.com/images/geschiedenis.jpg"}
+              ]
+            }
+          ]
+        },
+        {
+          "woord": "vrouw",
+          "type": "noun",
+          "image_url": "https://example.com/images/vrouw.jpg",
+          "meest_gebruikte_woorden_erna": [
+            {
+              "woord": "leest",
+              "type": "verb",
+              "image_url": "https://example.com/images/leest.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "boeken", "type": "noun", "image_url": "https://example.com/images/boeken.jpg"},
+                {"woord": "over", "type": "preposition", "image_url": "https://example.com/images/over.jpg"},
+                {"woord": "reizen", "type": "verb", "image_url": "https://example.com/images/reizen.jpg"},
+                {"woord": "dagelijks", "type": "adverb", "image_url": "https://example.com/images/dagelijks.jpg"}
+              ]
+            },
+            {
+              "woord": "werkt",
+              "type": "verb",
+              "image_url": "https://example.com/images/werkt.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "hard", "type": "adjective", "image_url": "https://example.com/images/hard.jpg"},
+                {"woord": "elke", "type": "adjective", "image_url": "https://example.com/images/elke.jpg"},
+                {"woord": "dag", "type": "noun", "image_url": "https://example.com/images/dag.jpg"},
+                {"woord": "uurtje", "type": "noun", "image_url": "https://example.com/images/uurtje.jpg"}
+              ]
+            },
+            {
+              "woord": "kookt",
+              "type": "verb",
+              "image_url": "https://example.com/images/kookt.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "graag", "type": "adverb", "image_url": "https://example.com/images/graag.jpg"},
+                {"woord": "gezond", "type": "adjective", "image_url": "https://example.com/images/gezond.jpg"},
+                {"woord": "eten", "type": "noun", "image_url": "https://example.com/images/eten.jpg"},
+                {"woord": "dagelijks", "type": "adverb", "image_url": "https://example.com/images/dagelijks.jpg"}
+              ]
+            },
+            {
+              "woord": "wandelt",
+              "type": "verb",
+              "image_url": "https://example.com/images/wandelt.jpg",
+              "meest_gebruikte_woorden_erna": [
+                {"woord": "elke", "type": "adjective", "image_url": "https://example.com/images/elke.jpg"},
+                {"woord": "dag", "type": "noun", "image_url": "https://example.com/images/dag.jpg"},
+                {"woord": "in", "type": "preposition", "image_url": "https://example.com/images/in.jpg"},
+                {"woord": "het", "type": "article", "image_url": "https://example.com/images/het.jpg"}
+              ]
+            }
+          ]
+        },
+        {
+          "woord": "auto",
+          "type": "noun",
+          "image_url": "https://example.com/images/auto.jpg",
+          "meest_gebruikte_woorden_erna": [
+            {"woord": "rijdt", "type": "verb", "image_url": "https://example.com/images/rijdt.jpg"},
+            {"woord": "snel", "type": "adverb", "image_url": "https://example.com/images/snel.jpg"},
+            {"woord": "op", "type": "preposition", "image_url": "https://example.com/images/op.jpg"},
+            {"woord": "de", "type": "article", "image_url": "https://example.com/images/de.jpg"}
+          ]
+        },
+        {
+          "woord": "kat",
+          "type": "noun",
+          "image_url": "https://example.com/images/kat.jpg",
+          "meest_gebruikte_woorden_erna": [
+            {"woord": "slaapt", "type": "verb", "image_url": "https://example.com/images/slaapt.jpg"},
+            {"woord": "op", "type": "preposition", "image_url": "https://example.com/images/op.jpg"},
+            {"woord": "de", "type": "article", "image_url": "https://example.com/images/de.jpg"},
+            {"woord": "bank", "type": "noun", "image_url": "https://example.com/images/bank.jpg"}
+          ]
+        }
+      ]
+    }
+  ]
 }

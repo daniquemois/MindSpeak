@@ -1,4 +1,4 @@
-button {
+button, .button {
     padding: 10px;
     font-size: 20px;
     border-radius: 10px;
@@ -7,16 +7,26 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .verb{
   border: 10px solid $green;
 }
+.verbAI{
+  border: 10px double $green;
+}
 .personal{
   border: 10px solid $orange;
 }
+.personalAI{
+  border: 10px double $orange;
+}
 .question{
   border: 10px solid $blue;
+}
+.questionAI{
+  border: 10px double $blue;
 }
 .navigation{
   border: unset;
@@ -37,11 +47,21 @@ button {
   background-color: $grey;
   border: unset;
 }
+.actionAI{
+  background-color: $grey;
+  border: unset;
+}
 .negation{
   border: 10px solid $red;
 }
+.negationAI{
+  border: 10px double $red;
+}
 .article{
   border: 10px solid $black;
+}
+.articleAI{
+  border: 10px double $black;
 }
 // Filled buttons
 .personal-filled{
@@ -59,4 +79,7 @@ button {
 img{
   width: 4em;
   height: auto;
+}
+.output *{
+  border: none;
 }

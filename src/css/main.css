@@ -98,9 +98,22 @@ h1, h2, h3, h4, h5, h6, button {
   border: 2px solid #000;
   font-size: 24px;
   text-align: left;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  padding: 0px 20px;
+}
+.grid-container .output div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  justify-content: center;
+  gap: 10px;
 }
 
-button {
+button, .button {
   padding: 10px;
   font-size: 20px;
   border-radius: 10px;
@@ -109,18 +122,31 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: white;
 }
 
 .verb {
   border: 10px solid var(--green, #9ADF7D);
 }
 
+.verbAI {
+  border: 10px double var(--green, #9ADF7D);
+}
+
 .personal {
   border: 10px solid var(--orange, #FBAF3C);
 }
 
+.personalAI {
+  border: 10px double var(--orange, #FBAF3C);
+}
+
 .question {
   border: 10px solid var(--blue, #66C4FB);
+}
+
+.questionAI {
+  border: 10px double var(--blue, #66C4FB);
 }
 
 .navigation {
@@ -146,12 +172,25 @@ button {
   border: unset;
 }
 
+.actionAI {
+  background-color: var(--grey, #AAAAAA);
+  border: unset;
+}
+
 .negation {
   border: 10px solid var(--red, #FB4C4C);
 }
 
+.negationAI {
+  border: 10px double var(--red, #FB4C4C);
+}
+
 .article {
   border: 10px solid var(--black, #434343);
+}
+
+.articleAI {
+  border: 10px double var(--black, #434343);
 }
 
 .personal-filled {
@@ -172,6 +211,10 @@ button {
 img {
   width: 4em;
   height: auto;
+}
+
+.output * {
+  border: none;
 }
 
 main {
