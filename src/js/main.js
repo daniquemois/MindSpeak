@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const excludedButtons = [
     'Start', 'Snel spraak', 'Voorspellen', 
     'Toetsenbord', 'Danique', 'Alle woordenlijsten', 
-    'Kleine woordjes', 'Beschrijvingen'
+    'Kleine woordjes', 'Beschrijvingen', 'Persoonlijk'
   ];
 
   const initialGridWords = [
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
             imgElement.alt = woord;
 
             const textElement = document.createElement('p');
-            textElement.textContent = woord;
+            textElement.textContent = vervoegWoord(woord, output.innerText);
 
             // Add class based on word type
             const wordInfo = findWordInfo(woord, wordData.woorden);
@@ -166,5 +166,44 @@ document.addEventListener('DOMContentLoaded', function() {
         button.className = `${gridButtons[index]} ${wordInfo.type ? wordInfo.type : ''}`;
       }
     });
+  }
+
+  function vervoegWoord(woord, huidigeTekst) {
+    const vervoegingen = {
+      'Ik': {
+        'Willen': 'wil',
+        'Komen': 'kom',
+        'Zeggen': 'zeg',
+        'Gaan': 'ga'
+      },
+      'Jij': {
+        'Willen': 'wil',
+        'Komen': 'komt',
+        'Zeggen': 'zegt',
+        'Gaan': 'gaat'
+      },
+      'Wij': {
+        'Willen': 'willen',
+        'Komen': 'komen',
+        'Zeggen': 'zeggen',
+        'Gaan': 'gaan'
+      },
+      'Jullie': {
+        'Willen': 'willen',
+        'Komen': 'komen',
+        'Zeggen': 'zeggen',
+        'Gaan': 'gaan'
+      },
+      // Voeg hier meer vervoegingen toe voor andere persoonlijke voornaamwoorden en werkwoorden
+    };
+
+    const woorden = huidigeTekst.split(' ');
+    const laatsteWoord = woorden[woorden.length - 1];
+
+    if (vervoegingen[laatsteWoord] && vervoegingen[laatsteWoord][woord]) {
+      return vervoegingen[laatsteWoord][woord];
+    }
+
+    return woord;
   }
 });

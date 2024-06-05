@@ -125,6 +125,10 @@ button, .button {
   background-color: white;
 }
 
+#voorspellenhtml .grid19 {
+  background-color: black;
+}
+
 .verb {
   border: 10px solid var(--green, #9ADF7D);
 }
