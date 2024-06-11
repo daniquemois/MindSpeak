@@ -92,18 +92,18 @@ h1, h2, h3, h4, h5, h6, button {
   grid-template-rows: repeat(6, 1fr);
   gap: 10px;
 }
-.grid-container .output {
+.grid-container #output {
   grid-column: span 4;
   background-color: #fff;
   border: 2px solid #000;
-  font-size: 24px;
+  font-size: 18px;
   text-align: left;
   display: flex;
   gap: 20px;
   flex-direction: row;
   padding: 0px 20px;
 }
-.grid-container .output div {
+.grid-container #output div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,8 +114,8 @@ h1, h2, h3, h4, h5, h6, button {
 }
 
 button, .button {
-  padding: 10px;
-  font-size: 20px;
+  padding: 0px;
+  font-size: 15px;
   border-radius: 10px;
   cursor: pointer;
   display: flex;
@@ -123,6 +123,7 @@ button, .button {
   align-items: center;
   justify-content: center;
   background-color: white;
+  color: black;
 }
 
 #voorspellenhtml .grid19 {
@@ -213,17 +214,21 @@ button, .button {
 }
 
 img {
-  width: 4em;
-  height: auto;
+  width: auto;
+  height: 4rem;
 }
 
 .output * {
   border: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 main {
-  height: 100vh;
-  max-height: 100vh;
+  height: 100dvh;
+  max-height: 100dvh;
   display: flex;
   flex-direction: column;
   overflow: hidden;

@@ -9,6 +9,9 @@
   },
   "author": "Danique Lammertink",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "git": "^0.1.5",
